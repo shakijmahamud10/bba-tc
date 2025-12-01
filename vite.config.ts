@@ -7,7 +7,7 @@ export default defineConfig(({ mode }) => {
     const env = loadEnv(mode, '.', '');
     return {
 
-      base: '/bba-tc/home',
+      base: '/',
 
       server: {
         port: 3000,
